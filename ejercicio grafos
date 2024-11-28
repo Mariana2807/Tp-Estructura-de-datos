@@ -70,9 +70,9 @@ universo.mostrar_universo()
 ruta = universo.encontrar_ruta("Tierra", "Kaiosama")
 print("\nRuta encontrada:", " -> ".join(ruta) if ruta else "No hay ruta.")
 
-Universo de Dragon Ball:
-Tierra -> {'Namek': 5000, 'Vegeta': 7000}
-Namek -> {'Tierra': 5000, 'Kaiosama': 4000}
-Vegeta -> {'Tierra': 7000, 'Kaiosama': 3000}
-Kaiosama -> {'Vegeta': 3000, 'Namek': 4000}
-Ruta encontrada: Tierra -> Namek -> Kaiosama
+Universo de Dragon Ball: # type: ignore
+Tierra -> {'Namek': 5000, 'Vegeta': 7000} # type: ignore
+Namek -> {'Tierra': 5000, 'Kaiosama': 4000} # type: ignore
+Vegeta -> {'Tierra': 7000, 'Kaiosama': 3000} # type: ignore
+Kaiosama -> {'Vegeta': 3000, 'Namek': 4000} # type: ignore
+Ruta encontrada: Tierra -> Namek -> Kaiosama # type: ignore
